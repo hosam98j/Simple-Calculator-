@@ -1,0 +1,11 @@
+.numbers {
+  grid-row: 2 / span 5;
+  grid-column: 1 / span 3;
+  display: flex;
+  flex-wrap: wrap;
+  li {
+    background-color: dodgerblue;
+    flex-basis: 30%;
+    margin: 1.666665%;
+  }
+}

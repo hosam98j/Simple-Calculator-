@@ -1,0 +1,15 @@
+.operations {
+  grid-column: 4 / 4;
+  grid-row: 1 / span 5;
+  display: flex;
+  flex-direction: column;
+  li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color3;
+    flex-basis: 20%;
+    margin: 3.234%;
+    border-radius: 5px;
+  }
+}
